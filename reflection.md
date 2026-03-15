@@ -41,6 +41,9 @@ Streamlit "reruns" the entire script runs from top to bottm every time the user 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
+- This could be a testing habit, a prompting strategy, or a way you used Git.
+One habit I would love to resuse in future projects would be the act of using ai to help me generate test cases for my bugs i fixed
 - What is one thing you would do differently next time you work with AI on a coding task?
+i woudl take time to identify all files im working on with the ai and always start a new chat for each section
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+Now i feel i understand how coding with ai works instead of just copy and paste this time I actually worked with the ai served more as my tool than the one doing the work.
