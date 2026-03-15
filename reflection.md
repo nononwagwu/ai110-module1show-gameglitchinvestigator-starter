@@ -7,29 +7,34 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - What did the game look like the first time you ran it?
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+  The difficulty doesnt reset
+  When it was one normal I guessed 100 and said go lower,guessed 99 then said go higher despite the range is 1-100
+  The hard difficulty is easier than Normal
 
 ---
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?  Claude
+- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result). AI suggested Hard difficulty was easier than Normal and I verfied this by changing the difficulty on the website and saw it was true deu to the range of hard being smaller
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
----
+
+--- AI was wrong about the hints saying the order was wrong but indeed was correct
 
 ## 3. Debugging and testing your fixes
 
-- How did you decide whether a bug was really fixed?
-- Describe at least one test you ran (manual or using pytest)  
+- How did you decide whether a bug was really fixed?  I decided the bug was really fixed when i tested it myself and saw the code was working perfectly also used a pytest case
+- Describe at least one test you ran (manual or using pytest)  i started a new game adn the answer was 92 when i guessed 98 it said go lower and when i guessed 50 it said go higher
   and what it showed you about your code.
-- Did AI help you design or understand any tests? How?
+- Did AI help you design or understand any tests? How? yes it did , it helped me test my code in every possible case adn gave me an explaination for doing such
 
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+Streamlit "reruns" the entire script runs from top to bottm every time the user interacts with the app take it as refershing a webpage automatically whenever the user does something. WHile Session state is about the the variables reseting each time the code runs in the sense of a new game it gives us new attmpts and a new secret number
 
 ---
 
